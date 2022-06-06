@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
- *printf - print the last digit the variable n
+ * printf - a command that print the
+ * last digit of the variable n
+ *
  * Return: Always 0 (Success)
  */
 
@@ -31,5 +33,6 @@ int main(void)
 	{
 		printf("Last digit of %i is %i and is 0\n", n, last);
 	}
+
 	return (0);
 }
