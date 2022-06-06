@@ -12,8 +12,8 @@ int main(void)
 	char alp;
 
 	for (alp = 'a'; alp <= 'z'; alp++)
-	putchar(ch);
-	putchar(toupper(ch);
+	putchar(alp);
+	putchar(toupper(alp);
 	putchar('\n');
 	return (0);
 }
