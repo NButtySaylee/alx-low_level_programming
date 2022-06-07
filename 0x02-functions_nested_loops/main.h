@@ -3,7 +3,7 @@
 
 int _putchar(char c);
 void print_alpha(void);
-void print_alpha_10(void);
+void print_alpha_x10(void);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
