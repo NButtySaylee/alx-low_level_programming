@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	int numleft;
-	int numright;
+	int numleft, numright;
 
 
 	for (numleft = 48; numright <= 78; numleft++)
