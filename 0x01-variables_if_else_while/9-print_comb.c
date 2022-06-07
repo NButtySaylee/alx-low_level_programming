@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(num);
 
-		if (numb == 57)
+		if (num == 57)
 		{
 			break;
 		}
