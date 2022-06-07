@@ -14,7 +14,7 @@ int main(void)
 
 	for (numleft = 48; numright <= 78; numleft++)
 	{
-		for (numright = numbleft + 1 ; numright <= 78; numright++)
+		for (numright = numleft + 1 ; numright <= 78; numright++)
 		{
 			putchar(numleft);
 			putchar (numright);
