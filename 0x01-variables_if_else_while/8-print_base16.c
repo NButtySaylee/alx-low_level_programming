@@ -7,11 +7,15 @@
  */
 int main(void)
 {
-	int alpha;
+	char b16;
 
-	for (alpha = 'z'; alpha >= 'a'; alpha--)
+	for (b16 = 30; b16 <= 39; b16++)
 	{
-		putchar(alpha);
+		putchar(b16);
+	}
+	for (b16 = 70; b16 <= 75; b16++)
+	{
+		putchar(b16);
 	}
 	putchar('\n');
 	return (0);
