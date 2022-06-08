@@ -13,10 +13,12 @@ int main(void)
 	while (b < 4000000)
 	{
 		if (b % 2 == 0)
+		{
 			total += b;
 			c = b;
 			b += a;
 			a = c;
+		}
 	}
 
 	printf("%d\n", total);
